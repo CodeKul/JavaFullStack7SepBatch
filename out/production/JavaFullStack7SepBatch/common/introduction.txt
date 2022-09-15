@@ -1,0 +1,34 @@
+- object-oriented language
+- object is real world entity
+- developed by Sun microsystems in 1991, later acquired by Oracle
+- developed by James Gosling, Patrick Naughton
+- simple programming language
+- easy to write
+- easy to debug
+- easy to compile
+- reusable code
+
+Terminology
+1. JDK
+	- Java Development Kit
+	- includes JRE
+2. JRE
+	- Java Runtime Environment
+	- a part of JDK
+3. Bytecode
+    - javac compiler compiles the java source code into bytecode
+    - bytecode is saved in a .class file by compiler
+
+Main Features
+1. Platform independent language
+2. Object-Oriented Language
+	a) Abstraction
+	b) Encapsulation
+	c) Inheritance
+	d) Polymorphism
+3. Simple
+4. Robust
+	- reliable
+5. Secure
+6. Multithreading
+7. Portable

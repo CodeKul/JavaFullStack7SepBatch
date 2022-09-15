@@ -1,0 +1,25 @@
+JDK
+	- Java Development Kit
+	- contains JRE along with development tools such as compiler,
+	debugger etc.
+	- contains the tools that we need to write & execute the Java
+	program
+
+JRE
+	- Java Runtime Environment
+	- within JRE Java Virtual machine runs
+	- contains JVM,class libraries & other development tools
+	such as compiler & debugger
+	- we can run the code JRE, but we can't develop & compile the code in JRE
+	- provides runtime environment for Java application
+
+JVM
+	- Java Virtual Machine
+	- abstract machine(virtual machine)
+	- it doesn't physically exist
+	- provides run-time environment in which Java bytecode can be executed
+	- Tasks performed by JVM
+	1. Loads code
+	2. Verifies code
+	3. Executes code
+	4. provides runtime environment

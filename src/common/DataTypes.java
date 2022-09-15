@@ -13,14 +13,15 @@ package common;
  */
 public class DataTypes {
     public static void main(String[] args){
-        boolean flag = false;
-        char c = 'A';
-        byte b = 5;
-        short s = 15;
-        int a = 10;
-        long l = 20L;
+        boolean flag = true;  // 1 bit
+        char c = 'A'; // 2 byte
 
-        float f = 2.5f;
-        double d = 10.5d;
+        byte b = 127; // 1 byte  -128 to 127
+        short s = 32767; // 2 byte  -32768 to 32767
+        int a = 10;  //4 byte  -2147483648 to 2147483647
+        long l = 20L; //8 byte  -2^63 to 2^63-1
+
+        float f = 2.5f;  // 4 byte  unlimited
+        double d = 10.5d; // 8 byte unlimited
     }
 }

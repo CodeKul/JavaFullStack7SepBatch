@@ -1,0 +1,8 @@
+1. create account on github
+2. download & install git (for windows)
+3. git init
+4. git add .
+5. git commit -m "initial commit "
+6. git config --global user.email "emailid"
+7. git config --global user.name "user name"
+8. git push origin main
