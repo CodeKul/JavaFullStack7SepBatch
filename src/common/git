@@ -1,8 +1,10 @@
 1. create account on github
 2. download & install git (for windows)
-3. git init
-4. git add .
-5. git commit -m "initial commit "
-6. git config --global user.email "emailid"
-7. git config --global user.name "user name"
-8. git push origin main
+3. create new repository on github
+4. git init
+5. git add .
+6. git commit -m "initial commit "
+7. add git remote
+8. git config --global user.email "emailid"
+9. git config --global user.name "user name"
+10. git push origin main
