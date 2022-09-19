@@ -9,7 +9,14 @@ package common;
  *      *,/,+,-,%(modulo)
  * 3. Shift Operator
  *      <<, >>
- *
+ * 4. Relational Operators
+ *      <,>,<=,>=
+ * 5. Ternary Operator
+ *      ?:
+ * 6. Logical AND (&&) , Logical OR (||)
+ * 7. Bitwise AND (&) , Bitwise OR (|)
+ * 8. Assignment Operator
+ *  +=,-=,*=,/=
  */
 public class OperatorsDemo {
     public static void main(String[] args){
@@ -19,7 +26,6 @@ public class OperatorsDemo {
         System.out.println(++a); //17
         System.out.println(a--); //17
         System.out.println(--a); //15
-
         System.out.println(a++ + ++a); //15 + 17 = 32
         int b = 10;
         int c = -10;
@@ -28,7 +34,7 @@ public class OperatorsDemo {
         boolean isFlag = false;
         System.out.println(!isFlag);
         //Arithmetic
-        b = 20;
+        b = 15;
         a=10;
         System.out.println(a+b);//30
         System.out.println(b-a);//10
@@ -43,6 +49,39 @@ public class OperatorsDemo {
 
         float f = b>>3;
         System.out.println(f);
+
+        //Relational Operators
+        System.out.println(20 < 30);
+        System.out.println(10 > 12);
+        System.out.println(10 >=10);
+        System.out.println(10 <=10);
+        System.out.println(b==a);
+        System.out.println(b!=a);
+
+        if (b > a)
+            System.out.println("b is greater");
+        else
+            System.out.println("a is greater");
+
+        //Ternary Operator
+        System.out.println(b > a ? "b is greater":"a is greater");
+        boolean greater = b > a;
+        System.out.println(greater?"b is greater":"a is greater");
+
+        b = 50 ;
+        a = 30;
+        System.out.println(b!=a && b > a);
+        System.out.println(b!=a || b<a);
+
+        System.out.println(b==a & b>a);
+        System.out.println(b!=a | b>a);
+
+        //Assignment Operator
+        int x = 10;
+        int y = 20;
+        x+=y; // x = x +y;
+        x-=y; // x=x-y;
+
 
     }
 }
