@@ -1,0 +1,15 @@
+- compiler executes the code from top to bottom
+
+1. Decision Making Statement
+	a) if statement
+	b) switch statement
+
+2. Loop Statement
+	a) for loop
+	b) while loop
+	c) do while loop
+	d) for each loop
+
+3. Jump Statement
+	a) break
+	b) continue
