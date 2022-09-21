@@ -13,3 +13,9 @@
 3. Jump Statement
 	a) break
 	b) continue
+
+
+Homework:
+1. WAP for name of months in switch
+	i/p Jan
+	o/p January
