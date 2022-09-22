@@ -19,3 +19,7 @@ Homework:
 1. WAP for name of months in switch
 	i/p Jan
 	o/p January
+
+2. 15 --> given no is divisible by 3 & 5
+	5 --> given no is divisible by 5 only
+	3 --> given no is divisible by 3 only
