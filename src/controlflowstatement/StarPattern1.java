@@ -14,5 +14,10 @@ public class StarPattern1 {
             }
             System.out.println();
         }
+
+        //infinite for loop
+//        for (;;){
+//            System.out.println("Infinite Loop");
+//        }
     }
 }
