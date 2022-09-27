@@ -1,0 +1,49 @@
+OOPS Concepts:
+- Object Oriented Programming
+	eg. Java,C#,PHP,Python,C++
+- to implement real world entities
+
+1. Object
+- real world entity
+	eg. Pen,Computer,Laptop,Mobile,table,chair etc.
+- instance of a class
+- can be physical or logical
+- contains an address so it consumes memory
+- has states & behaviour
+	eg. a) Dog
+			states: color,name,breed
+			behaviours: barking,eating,walking,running
+		b) Mobile
+			states: color,name,display,weight,OS,RAM,Camera
+			behaviours: calling,video playing,ringing,vibrate
+		c) Pen
+			states: color,name,brand,height,type
+			behaviours:writing
+
+2. Class
+- collection of objects
+- logical entity
+- blueprint
+- doesn't consume any space
+
+3. Inheritance
+- when one object acquires all the properties(states) and behaviours of parent object
+
+4. Polymorphism
+- one task is performed in different ways
+	eg. Cat speaks meow
+		dog barks woof
+
+5. Abstraction
+- hiding internal details & showing only functionality to the end users
+	eg. Washing machine, Microwave Oven
+
+6. Encapsulation
+- binding or wrapping code & data together into a single unit
+
+
+
+
+Homework
+1. Find which is the first OOP language?
+2. Find which is the first truly OOP language?
