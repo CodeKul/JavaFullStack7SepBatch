@@ -1,0 +1,15 @@
+- it is a block of code similar to the method
+- when an instance of the class is created constructor gets called
+- it constructs the values when the object is created
+Types:
+1. Default Constructor
+	- no args constructor
+	- doesn't have any parameter
+2. Parametrised Constructor
+
+Rules:
+1. constructor name must be same as its class
+2. constructor must have no explicit return type
+3. constructor cannot be abstract, static,final & synchronised
+4. if there is no constructor in a class, then compiler
+ automatically provides a default constructor

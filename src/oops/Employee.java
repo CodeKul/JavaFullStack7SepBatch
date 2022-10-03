@@ -4,10 +4,12 @@ public class Employee {
     String empCode;
     String name;
     String companyName;
+    double salary;
     void showData(){
-        System.out.println("EMP Code"+empCode);
-        System.out.println("EMP Name"+name);
-        System.out.println("Company Name"+companyName);
+        System.out.println("EMP Code "+empCode);
+        System.out.println("EMP Name "+name);
+        System.out.println("Company Name "+companyName);
+        System.out.println("Salary "+salary);
     }
 }
 
