@@ -1,0 +1,5 @@
+- when one object acquires all the properties(states) and behaviours of parent object
+- represents IS-A relationship(parent-child relationship)
+- reuse the methods & fields
+- for code re-usability
+- for method overriding
