@@ -7,6 +7,7 @@ public class Employee {
     int id = 1;
     String name = "Pooja";
     float salary = 50000;
+
 }
 class Programmer extends Employee{
     float bonus = 5000;
