@@ -4,3 +4,6 @@ Usage :
 1. to refer current class instance variable
 2. to invoke current class constructor
 3. to invoke current class method
+4. can be passed as argument in the constructor call
+5. can be passed as argument in the method call
+6. to return the current class instance from the method
