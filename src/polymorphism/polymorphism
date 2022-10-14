@@ -1,0 +1,18 @@
+Method Overloading
+- name of the method is same but different in arguments/parameters
+- increase the readability of program
+
+1. by changing number of args
+2. by changing the data type
+
+Notes:
+	Method overloading is not possible by changing the return type
+	of the method only
+
+void add(int n1,int n2)
+void add(int n1,int n2,int n3)
+void add(float n1,int n2,int n3)
+void add(double n1,int n2,int n3)
+
+Homework
+1. Can we overload the main method?
