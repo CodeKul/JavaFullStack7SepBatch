@@ -23,7 +23,7 @@ main()
 	- method name
 	- default signature, predefined in JVM
 	- JVM execute a program line by line
-	- entry point of the aaplication
+	- entry point of the application
 
 
 String args[]

@@ -19,6 +19,12 @@ public class AdditionDemo {
 
     public static void main(String[] args) {
         AdditionDemo demo = new AdditionDemo();
-        demo.add(10.5f,20.5f);
+        System.out.println(demo.add(10.5f,20.5f));
+    }
+
+    //we can overload the main method
+    public static int main(int a){
+        System.out.println("in main method ");
+        return a;
     }
 }
