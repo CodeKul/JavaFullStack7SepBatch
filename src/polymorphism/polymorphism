@@ -22,6 +22,61 @@ Method Overriding
 
 Homework
 1. Can we overload the main method?
-1. Can we override the main method?
+	- Yes
+2. Can we override the main method?
+	- No ,because main method is static
 3. Difference between method overloading & method overriding
 
+	Method Overloading                  	Method Overriding
+1. method name is same                    1. method name is same
+2. diff parameters                        2. same parameters
+3. within class                           3. classes that have IS-A relationship
+4. compile time polymorphism              4. run time polymorphism
+5. can't be performed by changing         5. return type must be same
+	the return type of the method
+
+Polymorphism
+- a single action in different ways
+poly - many
+morphs - forms
+Types :
+1. Compile-Time Polymorphism (Method Overloading)
+2. Run-Time Polymorphism ( Dynamic Method Dispatch)
+	- a process in which a call to an overridden method is resolved at
+	runtime
+
+Upcasting
+- if the reference variable of parent class refers to object of child class
+
+
+Homework
+1. class Shape{
+	float calculateArea(){
+	}
+}
+class Circle extends Shape{
+	int radius;
+	float calculateArea(){
+		//logic
+    }
+}
+class Triangle extends Shape{
+	float calculateArea(){
+		//logic
+    }
+}
+
+class Square extends Shape{
+	float calculateArea(){
+		//logic
+    }
+}
+class Rect extends Shape{
+	float calculateArea(){
+		//logic
+    }
+}
+
+class ShapeImpl{
+main()
+}
