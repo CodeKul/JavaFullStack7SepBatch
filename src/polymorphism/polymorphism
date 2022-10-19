@@ -52,6 +52,7 @@ Upcasting
 Homework
 1. class Shape{
 	float calculateArea(){
+	return result;
 	}
 }
 class Circle extends Shape{
