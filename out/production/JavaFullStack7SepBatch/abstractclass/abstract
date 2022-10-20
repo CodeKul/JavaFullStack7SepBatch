@@ -21,16 +21,3 @@ Rules:
 3. cannot be instantiated
 4. can have constructors & static methods
 5. can have final methods
-
-Notes:
-1. if class contains abstract method in that case class must be abstract
-2. if class is abstract then it may or may not be contains abstract method
-
-
-Homework
-1. public abstract class Bank {
-       abstract float getRateOfInterest();
-   }
-   class SBI extends Bank{}
-   class HDFC extends Bank{}
-   class ICICI extends Bank{}

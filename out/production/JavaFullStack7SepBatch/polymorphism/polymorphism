@@ -47,3 +47,37 @@ Types :
 
 Upcasting
 - if the reference variable of parent class refers to object of child class
+
+
+Homework
+1. class Shape{
+	float calculateArea(){
+	return result;
+	}
+}
+class Circle extends Shape{
+	int radius;
+	float calculateArea(){
+		//logic
+    }
+}
+class Triangle extends Shape{
+	float calculateArea(){
+		//logic
+    }
+}
+
+class Square extends Shape{
+	float calculateArea(){
+		//logic
+    }
+}
+class Rect extends Shape{
+	float calculateArea(){
+		//logic
+    }
+}
+
+class ShapeImpl{
+main()
+}
