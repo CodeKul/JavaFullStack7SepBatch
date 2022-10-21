@@ -1,0 +1,10 @@
+- used for memory management
+
+1. variable
+	- declared inside the class but outside the body of the method and
+	declared with static keyword
+	- shared among all objects
+2. method
+3. block
+4. Nested class
+
