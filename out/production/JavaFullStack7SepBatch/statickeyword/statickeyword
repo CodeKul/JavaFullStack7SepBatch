@@ -5,6 +5,10 @@
 	declared with static keyword
 	- shared among all objects
 2. method
+	- belongs to class rather than object of a class
+	- without creating an object of class,static method can be invoked
+	- static method can access static data member & can change the value of it
+	- non static member can not be accessed in static methods
 3. block
 4. Nested class
 
