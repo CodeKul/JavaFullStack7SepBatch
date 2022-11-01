@@ -10,5 +10,9 @@
 	- static method can access static data member & can change the value of it
 	- non static member can not be accessed in static methods
 3. block
-4. Nested class
+	- executes before main method at the time of class loading
+	- till JDK 1.6 we can execute java class without main method.
+	Since JDK 1.7, it is not possible to execute Java class without main method
+	get error :  can't find main(String[]) method in class
+4. class
 
