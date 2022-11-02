@@ -4,3 +4,12 @@ usage :
 1. to refer immediate parent class instance variable
 2. to invoke immediate parent class method
 3. to invoke immediate parent class constructor
+
+Difference between
+	this                          super
+1. refers to current instance   1. refers to immediate parent class
+   of class                        object
+2.to invoke immediate current   2. to invoke immediate parent class method
+   class method
+3. to invoke immediate current  3. to invoke immediate parent class constructor
+ class constructor
