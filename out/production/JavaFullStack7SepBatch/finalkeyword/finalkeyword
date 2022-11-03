@@ -1,0 +1,19 @@
+- used to restrict the user
+
+1. variable
+	- cannot change the value of final variable
+	- stop value change
+	- blank final variable:
+		- not initialised at the time of declaration
+		- only in constructor we can initialized blank final variable
+	- static blank final variable:
+		- not initialised at the time of declaration
+		- only in static block we can initialized static blank final variable
+2. method
+	- method cannot be override
+3. class
+	- cannot extend final class
+
+Can we declare a constructor final?
+
+
