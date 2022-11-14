@@ -1,0 +1,11 @@
+- contains interfaces,classes & sub-packages
+
+2 Types
+1. Built in
+2. User-defined
+	- java,util,lang,awt,swing,javax,io,sql,net etc.
+
+Advantages:
+ - used to categorize the classes & interfaces
+ - provides access protection
+ - removes naming collision

@@ -23,6 +23,15 @@ eg. Serializable,Cloneable & Remote etc
 instanceof
 - used to check whether an object is an specified class/interface or not.
 
+Difference between Abstract & Interface
+
+	Abstract class                      interface
+1. can have abstract/Non-abstract       1. only have abstract methods
+	method
+2. doesn't support Multiple             2. support Multiple Inheritance
+	inheritance
+
+
 Homework:
 1. interface Printable{
 	void print();
