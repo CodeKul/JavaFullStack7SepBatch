@@ -1,5 +1,7 @@
 package interfacedemo;
 
+import java.util.List;
+
 public interface Shape extends Drawable{
    int radius =  50;
    void calculateArea();
@@ -8,7 +10,7 @@ public interface Shape extends Drawable{
     void getDrawable();
 }
 class Circle implements Shape{
-    int radius = 5;
+   public int radius = 5;
   @Override
   public void calculateArea() {
     double res = 3.14 * radius * radius;
