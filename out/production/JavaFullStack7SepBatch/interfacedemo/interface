@@ -30,6 +30,12 @@ Difference between Abstract & Interface
 	method
 2. doesn't support Multiple             2. support Multiple Inheritance
 	inheritance
+3. contains constructors                3. doesn't contains constructors
+4. used extends                         4. used implements
+5. fields are private,protected         5. public
+6. variables final,non-final,static     6. variables are public,static & final
+ non-static
+
 
 
 Homework:

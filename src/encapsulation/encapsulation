@@ -1,0 +1,5 @@
+class Account{
+	int accountNo;
+	String name;
+	Double amount;
+}
