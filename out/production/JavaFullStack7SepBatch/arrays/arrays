@@ -1,0 +1,17 @@
+- collection of similar type of data which has contiguous memory location
+- index based
+- 1st element of an array is stored at 0th index
+- 2nd element of an array is stored at 1st index
+
+Advantages:
+1. Code Optimization
+2. Random access
+
+Types:
+1. Single Dimensional Array
+	Syntax:
+		1) dataType[] var;
+		2) dataType []var;
+		3) dataType var[];
+2. Multi Dimensional Array
+
