@@ -7,6 +7,9 @@ Advantages:
 1. Code Optimization
 2. Random access
 
+DisAdvantages:
+1. Size limit
+
 Types:
 1. Single Dimensional Array
 	Syntax:
