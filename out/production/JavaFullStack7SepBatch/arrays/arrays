@@ -16,5 +16,10 @@ Types:
 		1) dataType[] var;
 		2) dataType []var;
 		3) dataType var[];
-2. Multi Dimensional Array
+2. Multidimensional Array
+	Syntax:
+		datatype[][] var_name; OR
+		datatype [][]var_name; OR
+		datatype var_name[][]; OR
+		datatype []var_name[];
 
