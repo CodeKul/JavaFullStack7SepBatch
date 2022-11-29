@@ -10,6 +10,8 @@ public class AddTwoMatricesDemo {
         int b[][] = new int[2][2];
         int c[][] = new int[2][2];
 
+        int array[][] = {{1,2,3},{1,2,3},{1,2,3}};
+
         System.out.println("Enter first matrix element");
         for (int i=0;i<a.length;i++){
             for (int j=0;j<a.length;j++){
