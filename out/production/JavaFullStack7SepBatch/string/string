@@ -1,0 +1,7 @@
+- sequence of characters
+- array of characters
+
+Ways to create a String
+1. char[] ch = {'W','E','L','C','O','M','E'}
+   String s = new String(ch);
+   String s1 = "WELCOME";
