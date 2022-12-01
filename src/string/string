@@ -17,3 +17,7 @@ String Pool Constant
 	If the string is already exists in pool, a ref to the pooled instance is returned,
 	otherwise a new string instance is created in pool.
 	Only one object will be created
+
+Immutable String
+ - unmodifiable or unchangeable
+ - state & data can not be changed
