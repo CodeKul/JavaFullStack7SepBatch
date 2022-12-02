@@ -21,3 +21,24 @@ String Pool Constant
 Immutable String
  - unmodifiable or unchangeable
  - state & data can not be changed
+
+ String Compare
+ 1. By using equals() method
+    - compares the content of string
+ 2. By using == operator
+    - compares references not content
+ 3. By compareTo() method
+
+ Notes:
+ 1. before Java 7, JVM string pool in PermGen space, which has a fixed size.
+    so can not be expanded at runtime, & is not eligible for garbage collection
+    we can get an OutOfMemoryError
+ 2  from Java 7, SCP is stored in Heap Area, which is garbage collected by JVM.
+    reduced risk of  an OutOfMemoryError because unreferenced strings will be
+    removed from the pool, thereby releasing memory
+
+
+ Homework :
+ 1. Enter your name:
+ Madhuri Abhijeet Chougule
+Output M. A. Chougule
