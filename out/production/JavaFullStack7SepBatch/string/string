@@ -28,6 +28,16 @@ Immutable String
  2. By using == operator
     - compares references not content
  3. By compareTo() method
+    - compares the values lexicographically & return an integer
+    a)   0 : s1==s2
+    b) > 0 : s1>s2
+    c) < 0 : s1<s2
+
+String Concatenation:
+ - combination of multiple strings
+ 1. by using + operator
+ 2. concat method
+
 
  Notes:
  1. before Java 7, JVM string pool in PermGen space, which has a fixed size.
