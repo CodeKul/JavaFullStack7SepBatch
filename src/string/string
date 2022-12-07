@@ -38,6 +38,9 @@ String Concatenation:
  1. by using + operator
  2. concat method
 
+ Substring
+  - part of string
+
 
  Notes:
  1. before Java 7, JVM string pool in PermGen space, which has a fixed size.
