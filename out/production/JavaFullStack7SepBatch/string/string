@@ -42,6 +42,16 @@ String Concatenation:
   - part of string
 
 
+String Buffer
+ - a final class
+ - implements Serializable, Comparable<StringBuffer>, CharSequence
+ - a thread safe so multiple threads can not access it simultaneously
+ - methods are synchronised
+ - mutable(modifiable) i.e. it can be changed
+ - capacity() returns the current capacity of the buffer
+ - default capacity of buffer is 16
+
+
  Notes:
  1. before Java 7, JVM string pool in PermGen space, which has a fixed size.
     so can not be expanded at runtime, & is not eligible for garbage collection

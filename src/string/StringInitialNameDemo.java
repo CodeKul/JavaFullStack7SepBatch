@@ -21,6 +21,7 @@ public class StringInitialNameDemo {
         String n = String.valueOf(a);
 
         String s1 = "This is Java course, and we are Java Developer!";
+
         String s2 = s1.replace("Java","React");
         System.out.println(s2);
     }
