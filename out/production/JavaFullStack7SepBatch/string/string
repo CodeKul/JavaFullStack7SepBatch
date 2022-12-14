@@ -51,6 +51,16 @@ String Buffer
  - capacity() returns the current capacity of the buffer
  - default capacity of buffer is 16
 
+ String Builder
+ - a final class
+ - implements java.io.Serializable, Comparable<StringBuilder>, CharSequence
+ -  mutable(modifiable) i.e. it can be changed
+ - methods are non-synchronised
+ - not a thread safe
+
+Steps fro Custom Immutable class
+1. create a final class
+2. make instance variables of the class as final
 
  Notes:
  1. before Java 7, JVM string pool in PermGen space, which has a fixed size.
@@ -65,3 +75,5 @@ String Buffer
  1. Enter your name:
  Madhuri Abhijeet Chougule
 Output M. A. Chougule
+
+2. Diff between String,StringBuffer,StringBuilder
