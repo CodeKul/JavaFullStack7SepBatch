@@ -41,6 +41,12 @@ Reasons for exceptions:
 	- handle the exception
 	- without try not allow
 3. finally
+	- to execute code like closing the connection
+	- always executed whether exception is handled or not
+	- eg. closing the file, closing database connection
+	- only one finally block
 4. throw
+	- to throw an exception explicitly
+
 5. throws
 
