@@ -47,6 +47,17 @@ Reasons for exceptions:
 	- only one finally block
 4. throw
 	- to throw an exception explicitly
-
+	- can throw either checked or unchecked exception
 5. throws
 
+
+
+UserDefinedException:
+class class_name extends Exception{
+	class_name(String s){
+	super(s);
+	}
+}
+
+Exception Propagation
+-

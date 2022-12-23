@@ -50,3 +50,18 @@ Reasons for exceptions:
 	- can throw either checked or unchecked exception
 5. throws
 
+
+
+UserDefinedException:
+class class_name extends Exception{
+	class_name(String s){
+	super(s);
+	}
+}
+
+Exception Propagation
+-
+
+
+1. create user defined exception voteAgeCriteria
+2. Difference between final & finally
