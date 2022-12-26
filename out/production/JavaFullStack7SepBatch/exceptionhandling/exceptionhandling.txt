@@ -49,7 +49,8 @@ Reasons for exceptions:
 	- to throw an exception explicitly
 	- can throw either checked or unchecked exception
 5. throws
-
+	- declare the exception
+	- suppress the exception
 
 
 UserDefinedException:
@@ -61,3 +62,7 @@ class class_name extends Exception{
 
 Exception Propagation
 -
+
+
+1. create user defined exception voteAgeCriteria
+2. Difference between final & finally
