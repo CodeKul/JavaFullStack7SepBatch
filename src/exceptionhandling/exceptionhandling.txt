@@ -68,10 +68,20 @@ class class_name extends Exception{
 	super(s);
 	}
 }
+Nested Try :
+ - try inside another try
+ - Sometimes a situation may arise where part of a block may cause one error and the entire block
+ itself may cause another error. In such cases exception handlers have to be nested.
 
-Exception Propagation
--
+ Exception Propagation:
+ - when an exception occurs within a method then if that method does not handle that exception object
+ will be propagated to caller then the call method is responsible that exception.
+ - an exception is thrown from the top of the stack & if it not cought , then it drops down the call stack
+
 
 
 1. create user defined exception voteAgeCriteria
 2. Difference between final, finally & finalize
+
+
+5000 6000
