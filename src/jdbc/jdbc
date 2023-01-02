@@ -1,0 +1,45 @@
+Database
+ - collection of data
+
+ Relational Database:
+  SQL - Structured Query Language
+  eg. MySQL,PostgreSQL,MS-SQL,Oracle
+
+ DataBase Management System
+ - how to access database,manipulate data, represent data
+
+ MySQL
+  - open source
+Database : collection of tables
+
+JDBC
+ - Java Database Connectivity
+ - to connect & execute query with database (classes/interfaces)
+ - abstraction
+ - allow the application to send requests made by clients to specified database
+
+
+
+
+
+
+
+
+
+ *----------------------------------
+ mysql> show databases;
+ mysql> create database Java7Sept;
+mysql> use Java7Sept;
+mysql> create table student(rno int(2),name varchar(15),age int,class varchar(10),city varchar(20));
+mysql> desc student;
+mysql> insert into student values(1,'Abhijeet',16,'12th','Pune');
+Query OK, 1 row affected (0.01 sec)
+mysql> select * from student;
++------+----------+------+-------+------+
+| rno  | name     | age  | class | city |
++------+----------+------+-------+------+
+|    1 | Abhijeet |   16 | 12th  | Pune |
++------+----------+------+-------+------+
+1 row in set (0.00 sec)
+
+
