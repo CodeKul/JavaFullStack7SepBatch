@@ -51,6 +51,12 @@ JDBC Driver
 		3. Network Protocol driver
 		4. Thin Driver(fully written in JAVA)
 
+1. Driver Manager
+2. Connection
+3. Statement
+4. ResultSet
+5.
+
 
 
 
