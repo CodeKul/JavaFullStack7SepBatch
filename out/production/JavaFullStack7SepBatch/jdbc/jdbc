@@ -80,4 +80,8 @@ mysql> select * from student;
 +------+----------+------+-------+------+
 1 row in set (0.00 sec)
 
+mysql> update student set class = 'MCA' where name = 'Vaibhav';
+Query OK, 1 row affected (0.00 sec)
+mysql> delete from student where rno = 4;
+Query OK, 1 row affected (0.00 sec)
 
