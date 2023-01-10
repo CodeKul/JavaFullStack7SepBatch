@@ -36,7 +36,7 @@ JDBC
 	2. PreparedStatement
 		- insert,update,delete,create
 		- used to execute parameterized query
-	3. CallableStatement - procedure
+	3. CallableStatement - to call stored procedure & functions
 5. Execute the query
 	1. ResultSet executeQuery();
 	2. int executeUpdate();
@@ -85,5 +85,11 @@ Query OK, 1 row affected (0.00 sec)
 mysql> delete from student where rno = 4;
 Query OK, 1 row affected (0.00 sec)
 
-//Procedure
+//Stored Procedure
+- pre compiled SQL statements stored in database
+Types:
+1. procedure with no parameter
+2. procedure with IN parameter
+3. procedure with OUT parameter
+4. procedure with IN-OUT parameter
 
