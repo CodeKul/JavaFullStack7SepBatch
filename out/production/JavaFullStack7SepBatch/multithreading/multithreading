@@ -78,6 +78,7 @@ Methods:
 4. void sleep(long ms)
 	- sleep current executing thread for specified no of ms
 	- throws the exception IllegalArgumentException when the time for sleeping is negative
+	- after sleeping time is over, thread starts its execution from where it has left
 
 5. void join()
 	- to pause the execution of a current thread until unless the specified thread is dead.

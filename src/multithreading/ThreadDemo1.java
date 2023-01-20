@@ -3,7 +3,7 @@ package multithreading;
 public class ThreadDemo1 extends Thread{
 
     @Override
-    public void run() {
+    public void run() { //running
         System.out.println("in run method");
     }
 
