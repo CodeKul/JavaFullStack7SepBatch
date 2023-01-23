@@ -12,5 +12,6 @@ class ThreadImpl2 {
         ThreadDemo2 th1 = new ThreadDemo2();
         Thread thread = new Thread(th1);
         thread.start();
+        thread.start();//IllegalThreadStateException
     }
 }
