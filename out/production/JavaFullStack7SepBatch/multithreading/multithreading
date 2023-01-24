@@ -97,6 +97,7 @@ Methods:
 
 8. int getPriority()
 9. void setPriority(int newPriority)
+	- between 0-10
 10. void setDaemon(boolean on)
 11. boolean isDaemon()
 

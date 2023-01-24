@@ -97,6 +97,7 @@ Methods:
 
 8. int getPriority()
 9. void setPriority(int newPriority)
+	- between 0-10
 10. void setDaemon(boolean on)
 11. boolean isDaemon()
 
@@ -139,6 +140,7 @@ Daemon Thread
 	- low priority thread
 	- provides services to user threads for background supporting task
 	- to serve user threads
+
 
 DeadLock
  - occur in a situation when a thread is waiting for an object lock,
