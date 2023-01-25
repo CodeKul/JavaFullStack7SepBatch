@@ -141,6 +141,7 @@ Daemon Thread
 	- provides services to user threads for background supporting task
 	- to serve user threads
 
+
 DeadLock
  - occur in a situation when a thread is waiting for an object lock,
   that is acquired by another thread & second thread is
