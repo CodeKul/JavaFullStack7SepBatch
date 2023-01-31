@@ -159,8 +159,11 @@ Synchronisation
 	a) Mutual Exclusive
 		it will helps keep threads from interfering with one another
 			1. Synchronized method
+				- lock an object
+				eg. synchronised void printTable()
 			2. Synchronized block
 				- synchronizes portion of method
+				- more efficient than synchronised method
 			3. static synchronization
 				- lock will be on the class
 	b) Cooperation(Inter-Thread communication)
