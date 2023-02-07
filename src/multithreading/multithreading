@@ -186,6 +186,10 @@ Thread Pool
  3. no need to create a thread again & again
  4. easy to access
 
+ Garbage Collection
+ - perform automatic memory management
+
+
 Can we start a thread twice?
 - No, After starting a thread,it can never be started again
 - If we do this, we will get IllegalThreadStateException
@@ -211,4 +215,6 @@ Homework
 	- bookTicket
 4. bank example by static synchronisation
 5. bus ticket reservation
+6. finalized(),gc()
+7. Difference between final,finally & finalized()
 

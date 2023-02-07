@@ -177,6 +177,7 @@ Thread Pool
 	- facilitates the execution of N number of tasks using the same thread
 	- when any thread completes its execution , it can pickup a new task from the queue and execute it
 	- when all tasks are completed the threads remain active and wait for more tasks in the thread pool
+	- reuses previously created thread to execute task
  ThreadPoolExecutor :
     - separates the task creation & its execution
  Advantages
@@ -184,6 +185,10 @@ Thread Pool
  2. saves time
  3. no need to create a thread again & again
  4. easy to access
+
+ Garbage Collection
+ - perform automatic memory management
+
 
 Can we start a thread twice?
 - No, After starting a thread,it can never be started again
@@ -204,10 +209,12 @@ Notes:
 
 Homework
 1. Difference between Thread & Process
-2. difference between yield() & join() & sleep()
+2. difference between yield() & join() & sleep() & wait()
 3. movie ticket
 	//no of seats - 150 seats
 	- bookTicket
 4. bank example by static synchronisation
 5. bus ticket reservation
+6. finalized(),gc()
+7. Difference between final,finally & finalized()
 
