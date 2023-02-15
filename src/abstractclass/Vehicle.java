@@ -46,12 +46,17 @@ class Car extends Vehicle{
     void getColor() {
         System.out.println("Color is white");
     }
+
+    void show1(){
+
+    }
 }
 
 
 class BikeImpl{
     public static void main(String[] args) {
         Vehicle vehicle = new Bike();
+        vehicle.run();
         vehicle.run();
         vehicle.getColor();
         vehicle.show();

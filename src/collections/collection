@@ -17,6 +17,8 @@ Generics
 	- provides the functionality of resizable-arrays
 	- implements List(I)
 	- methods are not synchronised
+	- an ordered collection,follows the insertion order
+    - contains duplicate elements
 
 3. Vector(C)
 	- implements List(I)
