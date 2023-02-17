@@ -30,6 +30,10 @@ Generics
 	- extends Vector class
 5. LinkedList(C)
 	- data structure Doubly-linked list
+	- follows the insertion order
+	- no synchronised
+    - contains duplicate elements
+
 	- 3 fields
 		a) prev
 			- stores an address of prev element
@@ -150,6 +154,8 @@ Homework:
  }
  class EmpImp{
     main(){
+    LinkedList<Emp> list = new LinkedList();
+
         list 1 = add the data;
         list 2 = unique records
 
