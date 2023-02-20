@@ -24,10 +24,17 @@ Generics
 	- implements List(I)
 	- create resizable-arrays similar to ArrayList
 	- methods are synchronised
+	- legacy class
+	- concurrent Modification Exception
 4. Stack(C)
 	- elements are stored & accessed in Last In First Out(LIFO) manner
 	- elements are added to the top of the stack & removed from top of the stack
 	- extends Vector class
+	- push means to insert an element in the stack
+	- pop means to remove an element from top of the stack
+	- top = -1 ->> stack is empty,
+	- (size-1) ->> stack is full
+	- size ->> stack is overflow
 5. LinkedList(C)
 	- data structure Doubly-linked list
 	- follows the insertion order
