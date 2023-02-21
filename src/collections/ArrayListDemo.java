@@ -1,7 +1,5 @@
 package collections;
 
-import accessmodifiers.pack3.Person;
-
 import java.util.ArrayList;
 
 public class ArrayListDemo {
