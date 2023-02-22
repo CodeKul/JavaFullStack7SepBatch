@@ -1,5 +1,6 @@
 package collections;
 
+import java.util.Objects;
 import java.util.PriorityQueue;
 
 public class StudentPriorityDemo {
@@ -11,8 +12,8 @@ public class StudentPriorityDemo {
         students.add(new Student("ADM-004","Rohan",9.7));
         students.add(new Student("ADM-005","Ketki",8.0));
 
-        for (Student s:students){
-            System.out.println(s.toString());
+        while (!students.isEmpty()) {
+            System.out.println(students.remove());
         }
 
     }
@@ -28,6 +29,8 @@ class Student implements Comparable<Student>{
         this.cgpa = cgpa;
     }
 
+
+
     @Override
     public String toString() {
         return "Student{" +
@@ -39,9 +42,10 @@ class Student implements Comparable<Student>{
 
     @Override
     public int compareTo(Student s) {
-        if (cgpa > s.cgpa)
+        if (cgpa < s.cgpa)
             return 1;
-        else
-            return 0;
+        else if (cgpa > s.cgpa)
+            return -1;
+        return 0;
     }
 }
