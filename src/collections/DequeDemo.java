@@ -11,6 +11,7 @@ public class DequeDemo {
         fruits.offerLast("Pomegranate");
         fruits.offerFirst("Mango");
         fruits.addFirst("Banana");
+        //fruits.add(null);
         for (String s: fruits){
             System.out.println(s);
         }

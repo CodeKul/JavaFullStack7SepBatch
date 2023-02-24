@@ -52,6 +52,7 @@ Generics
 	- cannot contains duplicate element
 	- added only one null value
 	- unordered collection, it does not follow the insertion order
+
 7. TreeSet(C)
 	- elements from tree-set are sorted
 8. LinkedHashSet(C)
