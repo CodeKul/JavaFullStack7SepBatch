@@ -70,6 +70,7 @@ Generics
 	- Null elements are prohibited
 
 13. Map(I)
+	- java.util
 	- stores key & value pair
 	- keys are unique, values can be duplicate
 	- accepts only one null key, accepts more than one null values
