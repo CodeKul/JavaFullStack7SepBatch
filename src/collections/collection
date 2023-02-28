@@ -80,7 +80,8 @@ Generics
 	- keys are unique, values can be duplicate
 	- non synchronised
 	- doesn't maintain any order
-
+	- accepts only one null key, accepts more than one null values
+	- contains an array of node (hash,key,value,next)
 	- equals()
 	    * checks equality of 2 objects.It compares keys,whether keys are equal or not.
 	    * a method of the Object class
@@ -119,7 +120,7 @@ Generics
 	- stores key & value pair
 
 Hashing:
-	- process of converting an object into an integer value,The integer value helps in indexing & faster search
+	- process of converting an object into an integer value by using hashCode(),The integer value helps in indexing & faster search
 
 Enum:
 	- Enumeration
@@ -176,8 +177,10 @@ list 1
  2  B   456
  3  C   258
  4  D   986
-
+ 5  A   986
+ 6  B   456
 list 2
  1  A   986
  2  B   456
  3  C   258
+  4  D   986
