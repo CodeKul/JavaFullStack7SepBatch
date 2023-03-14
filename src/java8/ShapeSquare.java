@@ -1,7 +1,7 @@
 package java8;
 
 import java.util.Scanner;
-
+@FunctionalInterface
 public interface ShapeSquare {
     void calculateArea(int side);
 }
@@ -17,9 +17,11 @@ class SquareImpl{
             }
         };
         shapeSquare.calculateArea(no);
+
+        //lambda
         ShapeSquare s = (side) ->{
             System.out.println("Area in lambda"+side*side);
         };
-        s.calculateArea(no+1);
+        s.calculateArea(no);
     }
 }
