@@ -12,6 +12,8 @@ Features:
 	- provide backward compatibility so existing interfaces can use without implementing the
 	default methods in the class
 	static method:
+	 - cannot be overridden & changed in the class
+	 - part of interface only
 
 
 3. Functional Interface & Lambda Expressions
@@ -28,8 +30,9 @@ Features:
 	- we can replace lambda exp with method ref
 	Types of Method References
 	1. Reference to a static method
-	2. Reference to an instance method
+	2. Reference to an arbitrary object of a particular type
 	3. Reference to a constructor
+	4. Reference to an object/instance
 
 5. Optional
 	- it's a final class
