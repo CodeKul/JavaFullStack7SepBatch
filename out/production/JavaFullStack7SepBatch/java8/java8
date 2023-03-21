@@ -43,6 +43,12 @@ Features:
 6. Stream API
 	- from java.util.stream package
 	- it does not store elements
+	- to perform functional-style operations
+    Features:
+     1) Functional In Nature
+     2) Laziness-seeking
+     3) No storage
+     4) Unbounded
 
 7. Java Time API
 
