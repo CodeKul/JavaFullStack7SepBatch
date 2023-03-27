@@ -26,7 +26,7 @@ public class StreamDemo1 {
         System.out.println("Max Value: "+max);
 
         //sum
-      //  list.stream().reduce()
+       // list.stream().reduce()
 
         //count
         Long count = list.stream().count();
