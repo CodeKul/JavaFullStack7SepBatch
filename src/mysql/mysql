@@ -1,0 +1,66 @@
+- a Relational Database Management System bases on Structured Query Language
+
+Database
+	- an application that stores the organised collection of records
+Types:
+Relational                              Non-Relational
+1. eg. Oracle,MySql,                    1. MongoDb
+	MS Sql,Postgres
+2. data stored in table                 2. data stored in document format
+	format
+3. structured                           3. structured/unstructured
+
+1. Data Definition Language
+	- Create,Drop,Alter,Rename
+2. Data Manipulation Language
+	- insert,delete,update
+3. Data Query Language/Data Retrieval Language
+	- Select
+4. Transaction Control Language
+	- commit,roll back,savepoint
+5. Data Control Language
+	- Grant,Revoke
+
+ACID Properties?
+
+MySql Features
+	- open source database
+	- powerful
+	- secure
+	- scalable
+	- allows roll-back
+	- faster
+
+
+Primary Key - used for column uniqueness
+distinct - retrieve non-duplicate(unique) values of column
+order by - to sort the records
+group by - group the result
+Aggregation functions - SUM(),AVG(),MIN(),MAX(),COUNT()
+Having
+
+SQL Joins :
+- joins returns the records present in both tables
+1. Inner Join
+	- returns the matching records from both tables
+2. Left or Left Outer Join
+	- returns all the records from left table and match rows from right table
+3. Right or Right Outer Join
+	- returns all the records from right table and match rows from left table
+4. Cross Join
+	- does not require any common column to join two tables.
+	- cartesian product means no of rows present in table 1 multiplied by
+	  number of rows present in Table 2
+
+
+Queries:
+1. select e.empno,e.ename,e.job,d.dname from emp e inner join dept d on d.deptno = e.deptno;
+
+
+Questions:
+1. fetch records having job 'SalesManager' with associate empno,ename,total salary(sal+comm),
+	dept name & location.
+--> select e.job,e.empno,e.ename,IFNULL(e.sal,0) + IFNULL(e.comm,0) as totalSalary,d.dname,d.loc from emp e inner join dept d
+    on e.deptno = d.deptno where e.job = 'MANAGER';
+
+
