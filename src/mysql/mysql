@@ -55,6 +55,10 @@ SQL Joins :
 
 Queries:
 1. select e.empno,e.ename,e.job,d.dname from emp e inner join dept d on d.deptno = e.deptno;
+2. select e.empno,e.ename,e.job,e.sal,d.dname from emp e left join dept d on e.deptno = d.deptno;
+3. select e.empno,e.ename,e.job,e.sal,d.dname from emp e right join dept d on e.deptno = d.deptno;
+4. mysql> select empno,ename,job,sal from emp where sal = (select min(sal) from emp);
+5. mysql> select deptno,sum(sal) from emp group by deptno;
 
 
 Questions:
